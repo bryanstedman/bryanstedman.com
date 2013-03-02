@@ -1,0 +1,63 @@
+body
+	font-family: "EB Garamond", serif
+	font-size: 1.5em
+	line-height: 1.3em
+	color: $mainText
+
+h1, h2, nav
+	font-family: League Gothic, sans-serif
+
+h1
+	font-size: 250%
+	display: block
+	width: 100%
+	color: $altText
+	text-transform: uppercase
+	text-align: center
+	line-height: 1em
+	+breakpoint(mamabear)
+		text-align: left
+	a 
+		text-decoration: none 
+		&:hover 
+			opacity: 1
+	+breakpoint(babybear)
+		text-shadow: 1px 0 1px white, 3px 0 3px #8f7e7d, 4px 0 4px #515151
+	.home &
+		text-align: center
+		width: 100%
+
+.social
+	font-size: 1em
+	@include text-shadow(1px 1px 1px #eee)
+	+breakpoint(babybear)
+		font-size: 1.5em
+	+breakpoint(mamabear)
+		font-size: 1.7em
+
+.project, .post
+	font-size: .85em
+	h3
+		font-size: 1.3em
+		a 
+			text-decoration: none
+			color: #454545
+			&:hover
+				text-decoration: underline
+				color: #333
+				opacity: 1
+	&.single
+		h3
+			+breakpoint(mamabear)
+				font-size: 1.6em
+			+breakpoint(grandpabear)	
+				margin-bottom: .5em
+
+.copy
+	color: #979797
+	font-size: .6em
+
+code
+	font-family: monospace
+	font-size: .9em
+	padding: 0 .3em

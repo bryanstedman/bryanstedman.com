@@ -1,0 +1,177 @@
+.visuallyhidden 
+	border: 0
+	clip: rect(0 0 0 0)
+	height: 1px
+	margin: -1px
+	overflow: hidden
+	padding: 0
+	position: absolute
+	width: 1px
+
+a
+	color: $altText
+	&:hover
+		opacity: .7
+
+img.thumb
+	border: 5px solid #fff
+	float: left
+	@include box-shadow(1px 1px 4px rgba(0, 0, 0, 0.5))
+	margin: 0 10px 10px 0
+	&.right
+		float: right
+		margin: 0 0 10px 10px
+
+body
+	background: #eee url(../images/bg.jpg)
+
+nav a
+	color: black
+	text-decoration: none
+
+.social 
+	a
+		text-decoration: none 
+		color: $altColor
+		&:hover
+			color: $altColor2
+	footer &
+		background: #c8c8c8
+		border-top: 1px solid #e0e0e0
+		border-bottom: 1px solid #e0e0e0
+		@include box-shadow(0 0 5px rgba(0,0,0,.5))
+
+pre[rel] 
+	// padding-top: 33px
+
+pre
+	overflow: auto
+	color: black
+	background: #ddd
+	padding: 0
+	font-family: Menlo, Monaco, monospace
+	-moz-tab-size: 2
+	-o-tab-size: 2
+	tab-size: 2
+	-ms-word-break: normal
+	word-break: normal
+	word-break: normal
+	-webkit-hyphens: none
+	-moz-hyphens: none
+	-ms-hyphens: none
+	hyphens: none
+	position: relative
+	font-size: .6em
+	@include border-radius(10px)
+	@include box-shadow(inset 0 0 10px #333)
+	border: 3px solid #aaa
+	line-height: 2em 
+	+breakpoint(babybear)
+		font-size: .7em
+	+breakpoint(papabear)
+		font-size: .8em
+
+p, pre 
+	margin: 0 0 20px 0
+
+pre[rel]::before
+	content: attr(rel)
+	color: white
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	font-family: 'Gotham Rounded A', 'Gotham Rounded B', "proxima-nova-soft", sans-serif
+	padding: 5px 0
+	text-indent: 15px
+	background: $altText
+	border-bottom: 1px solid #777
+	display: none 
+
+
+pre code 
+	font-family: Menlo, Monaco, monospace
+	background: none
+	padding: 15px
+	white-space: pre
+	overflow: auto
+	display: block
+
+
+h2
+	position: relative
+	display: inline-block
+	letter-spacing: 0.15em
+	white-space: nowrap
+	text-align: center
+	font-size: 1em
+	text-transform: uppercase
+
+	&:after,
+	&:before 
+		content: " "
+		display: block
+		position: absolute
+		bottom: -.5em
+		width: 1em
+		height: 100%
+		background-color: lighten($altText,10)
+		// -webkit-mask: url(../img/text-texture5.png) 100% no-repeat
+		pointer-events:none
+
+	&:after 
+		right: -.57em
+		z-index: -1
+
+
+	&:before 
+		bottom: auto
+		top: -.5em
+		left: -.57em
+		z-index: -1
+
+
+	span 
+		display: inline-block
+		position: relative
+		padding: .15em .75em
+		text-decoration: none
+		background-color: lighten($altText,20)
+
+
+		&:after,
+		&:before 
+			content: " "
+			display: block
+			position: absolute
+			width: 0
+			height: 0
+			bottom: -.5em
+			left: -.05em
+			pointer-events: none
+			-webkit-mask: none
+
+		&:before 
+			bottom: auto
+			top: -.5em
+			border-bottom: .5em solid darken($altText,10)
+			border-left: .5em solid transparent
+		
+
+		&:after 
+			left:  auto
+			right: -.05em
+			border-top: .5em solid darken($altText,10)
+			border-right: .5em solid transparent
+
+.meta
+	color: #888
+	font-style: italic
+	font-size: .8em
+	+breakpoint(grandpabear)
+		font-size: 1em
+		background: #ddd 
+		@include box-shadow(1px 1px 1px #999)
+		@include border-radius(5px)
+		color: #555
+		@include text-shadow(1px 1px 1px white)

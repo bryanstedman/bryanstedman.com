@@ -1,0 +1,25 @@
+# standard jekyll configuration
+root: /blog/
+permalink: /blog/:year/:month/:title
+pygments: true
+exclude: ['README.md', 'config.rb']
+markdown: maruku
+paginate: 10
+
+# configuration required for some pages
+
+domain: bryanstedman.com
+title: Bryan Stedman
+author: Bryan Stedman
+email: bryan@bryanstedman.com
+
+# configuration for ehancements, uncomment to enable
+
+feedburner:
+  id: SimpleA11Y
+
+google_analytics:
+  account: UA-2419836-9
+
+# disqus:
+#   id: disqusid

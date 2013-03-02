@@ -1,0 +1,4 @@
+Contact page
+README.md
+tweak bio
+add old posts

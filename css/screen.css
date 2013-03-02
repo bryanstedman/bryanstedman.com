@@ -1,0 +1,1141 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+html {
+  line-height: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+ol, ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+q, blockquote {
+  quotes: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
+a img {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.svg#icomoon") format("svg"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000313}}
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000328}}
+.icon-feed:before, .icon-dribbble:before, .icon-instagram:before, .icon-forrst:before, .icon-codepen:before, .icon-envelope:before, .icon-lastfm:before, .icon-googleplus:before, .icon-facebook:before, .icon-github:before, .icon-twitter:before, .icon-github-2:before, .icon-pinterest:before, .icon-linkedin:before, .icon-spotify:before, .icon-reddit:before, .icon-mail:before, .icon-lastfm-2:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000336}}
+.icon-feed:before {
+  content: "\72";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000339}}
+.icon-dribbble:before {
+  content: "\64";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000342}}
+.icon-instagram:before {
+  content: "\69";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000345}}
+.icon-forrst:before {
+  content: "\73";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000348}}
+.icon-codepen:before {
+  content: "\67";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000351}}
+.icon-envelope:before {
+  content: "\61";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000354}}
+.icon-lastfm:before {
+  content: "\31";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000357}}
+.icon-googleplus:before {
+  content: "\6f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000360}}
+.icon-facebook:before {
+  content: "\34";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000363}}
+.icon-github:before {
+  content: "\25";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000366}}
+.icon-twitter:before {
+  content: "\74";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000369}}
+.icon-github-2:before {
+  content: "\23";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000372}}
+.icon-pinterest:before {
+  content: "\29";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000375}}
+.icon-linkedin:before {
+  content: "\2a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000378}}
+.icon-spotify:before {
+  content: "\2e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000381}}
+.icon-reddit:before {
+  content: "\30";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000384}}
+.icon-mail:before {
+  content: "\32";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_font\.scss}line{font-family:\0000387}}
+.icon-lastfm-2:before {
+  content: "\f09b";
+}
+
+/* Regular */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("../fonts/leaguegothic-italic-webfont.eot");
+  src: url("../fonts/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/leaguegothic-italic-webfont.woff") format("woff"), url("../fonts/leaguegothic-italic-webfont.ttf") format("truetype"), url("../fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("../fonts/leaguegothic-regular-webfont.eot");
+  src: url("../fonts/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/leaguegothic-regular-webfont.woff") format("woff"), url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype"), url("../fonts/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Condensed */
+@font-face {
+  font-family: 'League Gothic Condensed';
+  src: url("../fonts/leaguegothic-condensed-regular-webfont.eot");
+  src: url("../fonts/leaguegothic-condensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/leaguegothic-condensed-regular-webfont.woff") format("woff"), url("../fonts/leaguegothic-condensed-regular-webfont.ttf") format("truetype"), url("../fonts/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Condensed Italic */
+@font-face {
+  font-family: 'League Gothic Condensed';
+  src: url("../fonts/leaguegothic-condensed-italic-webfont.eot");
+  src: url("../fonts/leaguegothic-condensed-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/leaguegothic-condensed-italic-webfont.woff") format("woff"), url("../fonts/leaguegothic-condensed-italic-webfont.ttf") format("truetype"), url("../fonts/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\000031}}
+* {
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\000034}}
+.wrapper {
+  width: 90%;
+  margin: 0 auto 3em auto;
+  max-width: 30em;
+  margin-top: 1%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\000039}}
+.wrapper img {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000312}}
+p {
+  margin-bottom: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000316}}
+header, footer {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000319}}
+header {
+  margin-bottom: 2em;
+  margin-top: 5%;
+}
+@media only screen and (min-width: 33em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000319}}
+  header {
+    margin-top: 1%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000325}}
+nav {
+  float: right;
+  width: 100%;
+  margin-right: 5%;
+}
+@media only screen and (min-width: 33em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000325}}
+  nav {
+    padding: 0 20%;
+  }
+}
+@media only screen and (min-width: 38em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000325}}
+  nav {
+    width: auto;
+    padding: 0;
+    margin: 1.5em 0 0 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000335}}
+nav a {
+  text-align: right;
+  display: inline-block;
+  padding-left: 1em;
+  float: right;
+}
+@media only screen and (min-width: 38em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000335}}
+  nav a {
+    padding-left: 0.5em;
+  }
+}
+@media only screen and (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000335}}
+  nav a {
+    padding-left: 1em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000344}}
+nav:first-child {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000346}}
+.home nav {
+  margin-right: 5%;
+  width: 100%;
+}
+@media only screen and (min-width: 38em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000346}}
+  .home nav {
+    margin-right: 7%;
+  }
+}
+@media only screen and (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000346}}
+  .home nav {
+    margin-right: 4em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000354}}
+ul.social {
+  padding: 1em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000356}}
+ul.social li {
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.6em;
+}
+@media only screen and (min-width: 38em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000356}}
+  ul.social li {
+    letter-spacing: 0.4em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000362}}
+ul.social a {
+  text-align: center;
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000366}}
+section {
+  margin: 6em 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000368}}
+section .block {
+  margin-bottom: 3em;
+  color: white;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000375}}
+.project {
+  margin-bottom: 1.5em;
+}
+@media only screen and (min-width: 38em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000375}}
+  .project {
+    display: inline-block;
+    width: 48%;
+    padding: 0 0 0 0.7em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000381}}
+  .project:nth-of-type(even) {
+    padding: 0 0.7em 0 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000384}}
+.post {
+  margin-bottom: 3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000387}}
+.list {
+  margin-bottom: 6em;
+}
+
+@media only screen and (min-width: 62em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000390}}
+  .meta {
+    margin: 0.5em 0 0 -4em;
+    padding-right: 1em;
+    float: left;
+    line-height: 0.8em;
+    text-align: center;
+    padding: 0.9em 0.5em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\0000398}}
+  .meta span {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\00003100}}
+  .meta .comma {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\00003102}}
+  .meta .year {
+    font-size: 1.4em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\00003105}}
+.next, .prev {
+  padding: 0 0 2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\00003109}}
+.next {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\00003112}}
+.prev {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_layout\.sass}line{font-family:\00003115}}
+footer {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\000031}}
+body {
+  font-family: "EB Garamond", serif;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  color: #454545;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\000037}}
+h1, h2, nav {
+  font-family: League Gothic, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000310}}
+h1 {
+  font-size: 250%;
+  display: block;
+  width: 100%;
+  color: #bf463c;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1em;
+}
+@media only screen and (min-width: 38em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000310}}
+  h1 {
+    text-align: left;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000320}}
+h1 a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000322}}
+h1 a:hover {
+  opacity: 1;
+}
+@media only screen and (min-width: 33em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000310}}
+  h1 {
+    text-shadow: 1px 0 1px white, 3px 0 3px #8f7e7d, 4px 0 4px #515151;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000326}}
+.home h1 {
+  text-align: center;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000330}}
+.social {
+  font-size: 1em;
+  text-shadow: 1px 1px 1px #eeeeee;
+}
+@media only screen and (min-width: 33em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000330}}
+  .social {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 38em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000330}}
+  .social {
+    font-size: 1.7em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000338}}
+.project, .post {
+  font-size: 0.85em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000340}}
+.project h3, .post h3 {
+  font-size: 1.3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000342}}
+.project h3 a, .post h3 a {
+  text-decoration: none;
+  color: #454545;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000345}}
+.project h3 a:hover, .post h3 a:hover {
+  text-decoration: underline;
+  color: #333333;
+  opacity: 1;
+}
+@media only screen and (min-width: 38em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000350}}
+  .project.single h3, .post.single h3 {
+    font-size: 1.6em;
+  }
+}
+@media only screen and (min-width: 62em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000350}}
+  .project.single h3, .post.single h3 {
+    margin-bottom: 0.5em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000356}}
+.copy {
+  color: #979797;
+  font-size: 0.6em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_typography\.sass}line{font-family:\0000360}}
+code {
+  font-family: monospace;
+  font-size: 0.9em;
+  padding: 0 0.3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\000031}}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000311}}
+a {
+  color: #bf463c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000313}}
+a:hover {
+  opacity: 0.7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000316}}
+img.thumb {
+  border: 5px solid white;
+  float: left;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  margin: 0 10px 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000321}}
+img.thumb.right {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000325}}
+body {
+  background: #eeeeee url(../images/bg.jpg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000328}}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000333}}
+.social a {
+  text-decoration: none;
+  color: #979797;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000336}}
+.social a:hover {
+  color: #555555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000338}}
+footer .social {
+  background: #c8c8c8;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000347}}
+pre {
+  overflow: auto;
+  color: black;
+  background: #dddddd;
+  padding: 0;
+  font-family: Menlo, Monaco, monospace;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: normal;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  position: relative;
+  font-size: 0.6em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 10px #333333;
+  -moz-box-shadow: inset 0 0 10px #333333;
+  box-shadow: inset 0 0 10px #333333;
+  border: 3px solid #aaaaaa;
+  line-height: 2em;
+}
+@media only screen and (min-width: 33em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000347}}
+  pre {
+    font-size: 0.7em;
+  }
+}
+@media only screen and (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000347}}
+  pre {
+    font-size: 0.8em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000374}}
+p, pre {
+  margin: 0 0 20px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000377}}
+pre[rel]::before {
+  content: attr(rel);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", "proxima-nova-soft", sans-serif;
+  padding: 5px 0;
+  text-indent: 15px;
+  background: #bf463c;
+  border-bottom: 1px solid #777777;
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\0000392}}
+pre code {
+  font-family: Menlo, Monaco, monospace;
+  background: none;
+  padding: 15px;
+  white-space: pre;
+  overflow: auto;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003101}}
+h2 {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.15em;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003110}}
+h2:after, h2:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -0.5em;
+  width: 1em;
+  height: 100%;
+  background-color: #cd6961;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003122}}
+h2:after {
+  right: -0.57em;
+  z-index: -1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003127}}
+h2:before {
+  bottom: auto;
+  top: -0.5em;
+  left: -0.57em;
+  z-index: -1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003134}}
+h2 span {
+  display: inline-block;
+  position: relative;
+  padding: 0.15em 0.75em;
+  text-decoration: none;
+  background-color: #d98e88;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003142}}
+h2 span:after, h2 span:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -0.5em;
+  left: -0.05em;
+  pointer-events: none;
+  -webkit-mask: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003154}}
+h2 span:before {
+  bottom: auto;
+  top: -0.5em;
+  border-bottom: 0.5em solid #983830;
+  border-left: 0.5em solid transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003161}}
+h2 span:after {
+  left: auto;
+  right: -0.05em;
+  border-top: 0.5em solid #983830;
+  border-right: 0.5em solid transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003167}}
+.meta {
+  color: #888888;
+  font-style: italic;
+  font-size: 0.8em;
+}
+@media only screen and (min-width: 62em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_styles\.sass}line{font-family:\00003167}}
+  .meta {
+    font-size: 1em;
+    background: #dddddd;
+    -webkit-box-shadow: 1px 1px 1px #999999;
+    -moz-box-shadow: 1px 1px 1px #999999;
+    box-shadow: 1px 1px 1px #999999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    color: #555555;
+    text-shadow: 1px 1px 1px white;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\000031}}
+.hll {
+  background-color: #ffffcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\000032}}
+.c {
+  color: #999988;
+  font-style: italic;
+}
+
+/* Comment */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\000033}}
+.err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+
+/* Error */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\000034}}
+.k {
+  font-weight: bold;
+}
+
+/* Keyword */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\000035}}
+.o {
+  font-weight: bold;
+}
+
+/* Operator */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\000036}}
+.cm {
+  color: #999988;
+  font-style: italic;
+}
+
+/* Comment.Multiline */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\000037}}
+.cp {
+  color: #999999;
+  font-weight: bold;
+}
+
+/* Comment.Preproc */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\000038}}
+.c1 {
+  color: #999988;
+  font-style: italic;
+}
+
+/* Comment.Single */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\000039}}
+.cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Comment.Special */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000310}}
+.gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+
+/* Generic.Deleted */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000311}}
+.ge {
+  font-style: italic;
+}
+
+/* Generic.Emph */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000312}}
+.gr {
+  color: #aa0000;
+}
+
+/* Generic.Error */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000313}}
+.gh {
+  color: #999999;
+}
+
+/* Generic.Heading */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000314}}
+.gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+
+/* Generic.Inserted */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000315}}
+.go {
+  color: #888888;
+}
+
+/* Generic.Output */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000316}}
+.gp {
+  color: #555555;
+}
+
+/* Generic.Prompt */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000317}}
+.gs {
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000318}}
+.gu {
+  color: #aaaaaa;
+}
+
+/* Generic.Subheading */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000319}}
+.gt {
+  color: #aa0000;
+}
+
+/* Generic.Traceback */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000320}}
+.kc {
+  font-weight: bold;
+}
+
+/* Keyword.Constant */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000321}}
+.kd {
+  font-weight: bold;
+}
+
+/* Keyword.Declaration */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000322}}
+.kn {
+  font-weight: bold;
+}
+
+/* Keyword.Namespace */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000323}}
+.kp {
+  font-weight: bold;
+}
+
+/* Keyword.Pseudo */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000324}}
+.kr {
+  font-weight: bold;
+}
+
+/* Keyword.Reserved */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000325}}
+.kt {
+  color: #445588;
+  font-weight: bold;
+}
+
+/* Keyword.Type */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000326}}
+.m {
+  color: #009999;
+}
+
+/* Literal.Number */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000327}}
+.s {
+  color: #bb8844;
+}
+
+/* Literal.String */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000328}}
+.na {
+  color: teal;
+}
+
+/* Name.Attribute */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000329}}
+.nb {
+  color: #999999;
+}
+
+/* Name.Builtin */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000330}}
+.nc {
+  color: #445588;
+  font-weight: bold;
+}
+
+/* Name.Class */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000331}}
+.no {
+  color: teal;
+}
+
+/* Name.Constant */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000332}}
+.ni {
+  color: purple;
+}
+
+/* Name.Entity */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000333}}
+.ne {
+  color: #990000;
+  font-weight: bold;
+}
+
+/* Name.Exception */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000334}}
+.nf {
+  color: #990000;
+  font-weight: bold;
+}
+
+/* Name.Function */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000335}}
+.nn {
+  color: #555555;
+}
+
+/* Name.Namespace */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000336}}
+.nt {
+  color: navy;
+}
+
+/* Name.Tag */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000337}}
+.nv {
+  color: teal;
+}
+
+/* Name.Variable */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000338}}
+.ow {
+  font-weight: bold;
+}
+
+/* Operator.Word */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000339}}
+.w {
+  color: #bbbbbb;
+}
+
+/* Text.Whitespace */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000340}}
+.mf {
+  color: #009999;
+}
+
+/* Literal.Number.Float */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000341}}
+.mh {
+  color: #009999;
+}
+
+/* Literal.Number.Hex */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000342}}
+.mi {
+  color: #009999;
+}
+
+/* Literal.Number.Integer */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000343}}
+.mo {
+  color: #009999;
+}
+
+/* Literal.Number.Oct */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000344}}
+.sb {
+  color: #bb8844;
+}
+
+/* Literal.String.Backtick */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000345}}
+.sc {
+  color: #bb8844;
+}
+
+/* Literal.String.Char */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000346}}
+.sd {
+  color: #bb8844;
+}
+
+/* Literal.String.Doc */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000347}}
+.s2 {
+  color: #bb8844;
+}
+
+/* Literal.String.Double */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000348}}
+.se {
+  color: #bb8844;
+}
+
+/* Literal.String.Escape */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000349}}
+.sh {
+  color: #bb8844;
+}
+
+/* Literal.String.Heredoc */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000350}}
+.si {
+  color: #bb8844;
+}
+
+/* Literal.String.Interpol */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000351}}
+.sx {
+  color: #bb8844;
+}
+
+/* Literal.String.Other */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000352}}
+.sr {
+  color: olive;
+}
+
+/* Literal.String.Regex */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000353}}
+.s1 {
+  color: #bb8844;
+}
+
+/* Literal.String.Single */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000354}}
+.ss {
+  color: #bb8844;
+}
+
+/* Literal.String.Symbol */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000355}}
+.bp {
+  color: #999999;
+}
+
+/* Name.Builtin.Pseudo */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000356}}
+.vc {
+  color: teal;
+}
+
+/* Name.Variable.Class */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000357}}
+.vg {
+  color: teal;
+}
+
+/* Name.Variable.Global */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000358}}
+.vi {
+  color: teal;
+}
+
+/* Name.Variable.Instance */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/Desktop\/jekyll\/_sass\/partials\/_pygments\.scss}line{font-family:\0000359}}
+.il {
+  color: #009999;
+}
+
+/* Literal.Number.Integer.Long */

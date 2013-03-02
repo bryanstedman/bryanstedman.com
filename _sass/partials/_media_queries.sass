@@ -1,0 +1,21 @@
+=breakpoint($point)
+
+  @if $point == babybear
+    @media only screen and (min-width : 33em)
+      @content
+
+  @if $point == mamabear
+    @media only screen and (min-width : 38em)
+      @content
+
+  @if $point == papabear
+    @media only screen and (min-width : 50em)
+      @content
+
+  @if $point == grandpabear
+    @media only screen and (min-width : 62em)
+      @content
+
+  @if $point == retina
+    @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) 
+      @content
