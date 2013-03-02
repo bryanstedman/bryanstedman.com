@@ -5,3 +5,7 @@ add old posts
 Create a custom 404 page.
 RSS feed.
 Google Analytics maybe
+code highlighting
+  http://prismjs.com/
+Better blurb handling - don't add it to meta data
+  http://www.jacquesf.com/2011/03/creating-excerpts-in-jekyll-with-wordpress-style-more-html-comments/
