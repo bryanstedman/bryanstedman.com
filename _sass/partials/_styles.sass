@@ -106,63 +106,56 @@ h2
 	text-align: center
 	font-size: 1em
 	text-transform: uppercase
-
-	&:after,
-	&:before 
-		content: " "
-		display: block
-		position: absolute
-		bottom: -.5em
-		width: 1em
-		height: 100%
-		background-color: lighten($altText,10)
-		// -webkit-mask: url(../img/text-texture5.png) 100% no-repeat
-		pointer-events:none
-
-	&:after 
-		right: -.57em
-		z-index: -1
-
-
-	&:before 
-		bottom: auto
-		top: -.5em
-		left: -.57em
-		z-index: -1
-
-
-	span 
-		display: inline-block
-		position: relative
-		padding: .15em .75em
-		text-decoration: none
-		background-color: lighten($altText,20)
-
-
+	&.ribbon
 		&:after,
 		&:before 
 			content: " "
 			display: block
 			position: absolute
-			width: 0
-			height: 0
 			bottom: -.5em
-			left: -.05em
-			pointer-events: none
-			-webkit-mask: none
-
+			width: 1em
+			height: 100%
+			background-color: lighten($altText,10)
+			// -webkit-mask: url(../img/text-texture5.png) 100% no-repeat
+			pointer-events:none
+		&:after 
+			right: -.57em
+			z-index: -1
 		&:before 
 			bottom: auto
 			top: -.5em
-			border-bottom: .5em solid darken($altText,10)
-			border-left: .5em solid transparent
-		
+			left: -.57em
+			z-index: -1
+		span 
+			display: inline-block
+			position: relative
+			padding: .15em .75em
+			text-decoration: none
+			background-color: lighten($altText,20)
+			&:after,
+			&:before 
+				content: " "
+				display: block
+				position: absolute
+				width: 0
+				height: 0
+				bottom: -.5em
+				left: -.05em
+				pointer-events: none
+				-webkit-mask: none
 
-		&:after 
-			left:  auto
-			right: -.05em
-			border-top: .5em solid darken($altText,10)
-			border-right: .5em solid transparent
+			&:before 
+				bottom: auto
+				top: -.5em
+				border-bottom: .5em solid darken($altText,10)
+				border-left: .5em solid transparent
+			
+
+			&:after 
+				left:  auto
+				right: -.05em
+				border-top: .5em solid darken($altText,10)
+				border-right: .5em solid transparent
 
 .meta
 	color: #888
