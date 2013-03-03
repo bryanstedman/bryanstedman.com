@@ -7,6 +7,9 @@ categories:
   - Music
   - Tech
   - Web
+excerpt: |
+  When I was living in Prague I often felt out of the loop as far as new music and I missed hanging out and talking with my Seattle buddies about what new tunes they were listening to. As I listened to music during the day, I dreamed of being able to share that experience with my friends like we used to.   I was still listening to music for much of my waking hours, but it was now an isolated experience.
+
 ---
 
 When I was living in Prague I often felt out of the loop as far as new music and I missed hanging out and talking with my Seattle buddies about what new tunes they were listening to. As I listened to music during the day, I dreamed of being able to share that experience with my friends like we used to.   I was still listening to music for much of my waking hours, but it was now an isolated experience.  I looked to services like [last.fm][1] to help solve this, but it was only a partial solution. My friends could see what I was listening to and I could see the tracks that they were into, at least for those friends that had an account – which was not very many, but it was still isolated.

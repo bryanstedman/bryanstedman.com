@@ -6,6 +6,8 @@ date: 2011-06-29
 categories:
   - Tech
   - Web
+excerpt: |
+  You can find them everywhere now. QR code are on labels, print ads, website, I even saw one on the side of a bus. If you are unfamiliar with what QR codes (abbreviation for *Quick Response code*) are, they are bar codes that are scanable with a smartphone. You can think of them almost like hyperlinks for the physical world. They are cheap (read: free) to implement and anyone can use them.
 ---
 
 

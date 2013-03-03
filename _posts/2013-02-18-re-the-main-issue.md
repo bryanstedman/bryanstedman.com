@@ -7,6 +7,8 @@ title: |
 categories:
   - html
   - W3C
+  - Tech
+  - Web
 excerpt: |
   A couple weeks ago <a href="https://twitter.com/adactio/">Jeremy Keith</a> wrote <a href="http://adactio.com/journal/6014/">a post</a> about the new main element that is <a href="http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element">making its way into the WC3 spec</a> and I have been meaning to jot down my thoughts ever since. First off, I am a big fan of Jeremy Keith. He is a very smart guy and find myself having to think twice when I find our views differ, but in the spirit of keeping the discussion going I will press on.
 
