@@ -16,10 +16,10 @@ email: bryan@bryanstedman.com
 # configuration for ehancements, uncomment to enable
 
 feedburner:
-  id: SimpleA11Y
+  id: bryanstedman
 
 google_analytics:
-  account: UA-2419836-9
+  account: UA-16107577-1
 
 # disqus:
 #   id: disqusid

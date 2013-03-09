@@ -4,7 +4,7 @@ body
 	line-height: 1.3em
 	color: $mainText
 
-h1, h2, nav
+h1, h2, h3, nav
 	font-family: League Gothic, sans-serif
 
 h1
@@ -37,8 +37,10 @@ h1
 
 .project, .post
 	font-size: .85em
+	h2
+		font-size: 1.2em
 	h3
-		font-size: 1.3em
+		font-size: 1em
 		a 
 			text-decoration: none
 			color: #454545
@@ -48,8 +50,7 @@ h1
 				opacity: 1
 	&.single
 		h3
-			+breakpoint(mamabear)
-				font-size: 1.6em
+			font-size: 1.2em
 			+breakpoint(grandpabear)	
 				margin-bottom: .5em
 

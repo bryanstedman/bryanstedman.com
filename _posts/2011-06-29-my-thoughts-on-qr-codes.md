@@ -3,6 +3,7 @@ title: My thoughts on QR codes
 author: bryan
 layout: post
 date: 2011-06-29
+published: false
 categories:
   - Tech
   - Web

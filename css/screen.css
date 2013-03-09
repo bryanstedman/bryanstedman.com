@@ -439,7 +439,7 @@ body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\000037}}
-h1, h2, nav {
+h1, h2, h3, nav {
   font-family: League Gothic, sans-serif;
 }
 
@@ -502,40 +502,42 @@ h1 a:hover {
   font-size: 0.85em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000340}}
-.project h3, .post h3 {
-  font-size: 1.3em;
+.project h2, .post h2 {
+  font-size: 1.2em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000342}}
+.project h3, .post h3 {
+  font-size: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000344}}
 .project h3 a, .post h3 a {
   text-decoration: none;
   color: #454545;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000347}}
 .project h3 a:hover, .post h3 a:hover {
   text-decoration: underline;
   color: #333333;
   opacity: 1;
 }
-@media only screen and (min-width: 38em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000350}}
-  .project.single h3, .post.single h3 {
-    font-size: 1.6em;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000352}}
+.project.single h3, .post.single h3 {
+  font-size: 1.2em;
 }
 @media only screen and (min-width: 62em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000352}}
   .project.single h3, .post.single h3 {
     margin-bottom: 0.5em;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000357}}
 .copy {
   color: #979797;
   font-size: 0.6em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_typography\.sass}line{font-family:\0000361}}
 code {
   font-family: monospace;
   font-size: 0.9em;
@@ -606,80 +608,6 @@ footer .social {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_styles\.sass}line{font-family:\0000347}}
-pre {
-  overflow: auto;
-  color: black;
-  background: #dddddd;
-  padding: 0;
-  font-family: Menlo, Monaco, monospace;
-  -moz-tab-size: 2;
-  -o-tab-size: 2;
-  tab-size: 2;
-  -ms-word-break: normal;
-  word-break: normal;
-  word-break: normal;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-  position: relative;
-  font-size: 0.6em;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 10px #333333;
-  -moz-box-shadow: inset 0 0 10px #333333;
-  box-shadow: inset 0 0 10px #333333;
-  border: 3px solid #aaaaaa;
-  line-height: 2em;
-}
-@media only screen and (min-width: 33em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_styles\.sass}line{font-family:\0000347}}
-  pre {
-    font-size: 0.7em;
-  }
-}
-@media only screen and (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_styles\.sass}line{font-family:\0000347}}
-  pre {
-    font-size: 0.8em;
-  }
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_styles\.sass}line{font-family:\0000374}}
-p, pre {
-  margin: 0 0 20px 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_styles\.sass}line{font-family:\0000377}}
-pre[rel]::before {
-  content: attr(rel);
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  font-family: "Gotham Rounded A", "Gotham Rounded B", "proxima-nova-soft", sans-serif;
-  padding: 5px 0;
-  text-indent: 15px;
-  background: #bf463c;
-  border-bottom: 1px solid #777777;
-  display: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_styles\.sass}line{font-family:\0000392}}
-pre code {
-  font-family: Menlo, Monaco, monospace;
-  background: none;
-  padding: 15px;
-  white-space: pre;
-  overflow: auto;
-  display: block;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bryanstedman\/code\/bryanstedman\.com\/_sass\/partials\/_styles\.sass}line{font-family:\00003101}}
