@@ -8,7 +8,7 @@ title: |
 categories:
   - Web
 excerpt: |
-
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero veniam dolorum aperiam natus doloribus expedita labore doloremque dolorem asperiores ducimus suscipit voluptatum dolor enim et eum non porro quae culpa pariatur repellat esse velit eaque laboriosam ex ab molestias obcaecati?
 
 ---
 

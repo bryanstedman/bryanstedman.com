@@ -4,10 +4,13 @@ body
 	line-height: 1.3em
 	color: $mainText
 
-h1, h2, h3, nav
+h1.headline, h2.ribbon, nav
 	font-family: League Gothic, sans-serif
 
 h1
+	font-size: 1.7em
+
+h1.headline
 	font-size: 250%
 	display: block
 	width: 100%
@@ -37,10 +40,21 @@ h1
 
 .project, .post
 	font-size: .85em
+	h1
+		font-size: 1.7em
+		+breakpoint(grandpabear)
+			margin-bottom: .5em
 	h2
-		font-size: 1.2em
+		font-size: 1.4em
+		a 
+			text-decoration: none
+			color: #454545
+			&:hover
+				text-decoration: underline
+				color: #333
+				opacity: 1
 	h3
-		font-size: 1em
+		font-size: 1.3em
 		a 
 			text-decoration: none
 			color: #454545

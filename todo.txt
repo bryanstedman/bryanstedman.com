@@ -13,3 +13,5 @@ Better blurb handling - don't add it to meta data
 .post styles
   images display block margin auto
   h2 & h3
+new font with strong bold
+new post heading font?

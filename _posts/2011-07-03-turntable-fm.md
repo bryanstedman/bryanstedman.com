@@ -24,7 +24,7 @@ Fortunately, others felt the same way and people more capable than me came up wi
 [Turntable.fm](http://turntable.fm) is a website where users gather together in virtual rooms to listen and interact over music together. Visually, the site does a great job of giving users the sense of actually being in a physical space together.
 
 ![](/images/2011/overview21.jpg)
-This is what a room in Turntable.fm looks like
+<span class="caption">This is what a room in Turntable.fm looks like</span>
 
 ## How it works
 
@@ -36,7 +36,7 @@ I am not sure if this paragraph is really necessary if you read the previous par
 
 
 ![](/images/2011/avatars1.jpg)
-You can unlock more avatars by gaining points
+<span class="caption">You can unlock more avatars by gaining points</span>
 
 ## They mean it when they say beta
 
@@ -51,8 +51,9 @@ While the site is already great, save the above bugs, it is hard to not imagine 
 ### DJing
 
 Right now if you want to DJ in a crowded room you have to wait for a spot to open up and then it is a race to click on the link.  This clicking contest can be annoying. Some rooms that I have listened in have started to organize a list of users that would like to DJ and they take turns. **It would be great if turntable.fm added a DJ queue** to automate this.  People could get in line rather than just having a free for all. 
+
 ![](/images/2011/playmusic1.jpg)
-You have to wait for a spot to open up before you can DJ 
+<span class="caption">You have to wait for a spot to open up before you can DJ</span> 
 
  * Similarly, I would like to have an option to -put a cap on the number of songs that a DJ can play-*. After their allotted number of songs they would then automatically be put back in the audience and the next DJ in the queue would replace them.
  * The audience should also be able to *-vote up or down the DJ** in addition to the song.  Perhaps too many negative votes could result in the DJ losing their spot and enough positive votes could add to the DJs number of allotted songs or gain them additional points.
@@ -78,8 +79,8 @@ Turntable.fm, like [Pandora][14] , uses [MediaNet][4] which provides cheap licen
 
 As is so often the case with exciting start ups, there is the question of where revenue will come from.  Right now when a song is playing turntable.fm displays a link to buy the song in iTunes.
 
-![][16]
-You can add the current song to your queue, itunes, last.fm or spotify
+![](/images/2011/itunes21.jpg)
+<span class="caption">You can add the current song to your queue, itunes, last.fm or spotify</span>
 
 This will provide them will a little revenue, but I can’t imagine that it will be enough to sustain them.   They have to pay licensing and royalty fees along with the cost of building, scaling and maintaining the site.  I hope that they do fine a way to make money as I am really enjoying the service.
 
