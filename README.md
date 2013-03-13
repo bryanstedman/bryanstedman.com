@@ -1,3 +1,3 @@
 BryanStedman.com
 =========
-Files for my personal site [bryanstedman.com](http://bryanstedman.com)
+Files for the next version of my personal site [bryanstedman.com](http://bryanstedman.com)
