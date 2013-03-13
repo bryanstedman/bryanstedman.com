@@ -2,7 +2,7 @@
 root: /blog/
 permalink: /blog/:year/:month/:title
 pygments: true
-exclude: ['README.md', 'config.rb']
+exclude: ['README.md', 'config.rb', 'todo.txt']
 markdown: maruku
 paginate: 10
 

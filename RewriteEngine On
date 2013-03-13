@@ -1,0 +1,5 @@
+RewriteEngine On
+ResriteCond $1 !^mothereffinghsl/publish/
+RewriteRule ^(.*)$ mothereffinghsl/publish/$1 [L]
+
+http://www.youtube.com/watch?v=OXpCB3U_4Ig
