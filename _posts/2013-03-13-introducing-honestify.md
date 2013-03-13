@@ -8,7 +8,7 @@ title: |
 categories:
   - Web
 excerpt: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolorum facilis ullam aut ex sunt cum excepturi sit pariatur quos perspiciatis laboriosam porro beatae necessitatibus saepe incidunt libero repudiandae tenetur est accusamus minima aperiam alias doloribus facere maxime illum nemo!
+  For a while, I've been curious about learning to build <a href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklets</a> and browser plugins. I figured that it couldn't be too difficult, but I didn't really have anything particular to build. So it just sat in the back of my mind until I saw a <a href="https://twitter.com/ethanschoonover/status/293914120741335041">tweet</a> by <a href="https://twitter.com/ethanschoonover">Ethan Schoonover</a>. While I know that he was just joking, it seemed like a perfect excuse to take to learning something new.
 
 ---
 
