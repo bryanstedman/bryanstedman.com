@@ -1,5 +1,0 @@
-RewriteEngine On
-ResriteCond $1 !^jekyll/_site/
-RewriteRule ^(.*)$ jekyll/_site/$1 [L]
-
-http://www.youtube.com/watch?v=OXpCB3U_4Ig

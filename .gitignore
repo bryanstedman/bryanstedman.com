@@ -1,6 +1,4 @@
-.sass-cache/
-.DS_Store
-todo.txt 
 _site
-
-RewriteEngine On
+.DS_Store
+todo.txt
+.sass-cache/

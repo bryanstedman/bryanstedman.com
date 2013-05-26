@@ -1,19 +1,14 @@
 ---
-title: Turntable.fm
-author: bryan
 layout: post
-date: 2011-07-03
-# published: false
-categories:
-  - Music
-  - Tech
-  - Web
-excerpt: |
-  When I was living in Prague I often felt out of the loop as far as new music and I missed hanging out and talking with my Seattle buddies about what new tunes they were listening to. As I listened to music during the day, I dreamed of being able to share that experience with my friends like we used to.   I was still listening to music for much of my waking hours, but it was now an isolated experience.
-
+title:  "Turntable.fm"
+date:   2011-07-03
+published: false
+categories: music turntable.fm 
 ---
 
-When I was living in Prague I often felt out of the loop as far as new music and I missed hanging out and talking with my Seattle buddies about what new tunes they were listening to. As I listened to music during the day, I dreamed of being able to share that experience with my friends like we used to.   I was still listening to music for much of my waking hours, but it was now an isolated experience.  I looked to services like [last.fm](http://www.last.fm/user/bryanstedman) to help solve this, but it was only a partial solution. My friends could see what I was listening to and I could see the tracks that they were into, at least for those friends that had an account – which was not very many, but it was still isolated.
+When I was living in Prague I often felt out of the loop as far as new music and I missed hanging out and talking with my Seattle buddies about what new tunes they were listening to. As I listened to music during the day, I dreamed of being able to share that experience with my friends like we used to.   I was still listening to music for much of my waking hours, but it was now an isolated experience.  
+
+I looked to services like [last.fm](http://www.last.fm/user/bryanstedman) to help solve this, but it was only a partial solution. My friends could see what I was listening to and I could see the tracks that they were into, at least for those friends that had an account – which was not very many, but it was still isolated.
 
 I began to dream about what my ideal solution to this problem was and it seemed that, for the time being, nothing like what I wanted was available. I contemplated building it myself. Forget the fact that I didn’t have the programming knowledge to do that, the world (read: I) needed something like this.
 

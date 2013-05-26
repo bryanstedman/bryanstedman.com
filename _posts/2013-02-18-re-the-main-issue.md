@@ -1,23 +1,11 @@
 ---
-
-date: 2013-02-18
 layout: post
-title: |
-  RE: The main issue
-categories:
-  - html
-  - W3C
-  - Tech
-  - Web
-excerpt: |
-  A couple weeks ago <a href="https://twitter.com/adactio/">Jeremy Keith</a> wrote <a href="http://adactio.com/journal/6014/">a post</a> about the new main element that is <a href="http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element">making its way into the WC3 spec</a> and I have been meaning to jot down my thoughts ever since. First off, I am a big fan of Jeremy Keith. He is a very smart guy and find myself having to think twice when I find our views differ, but in the spirit of keeping the discussion going I will press on.
-
+title:  "RE: The main issue"
+date:   2013-02-18
+categories: html W3C tech web
 ---
 
-
-A couple weeks ago [Jeremy Keith](https://twitter.com/adactio/) wrote [a post](http://adactio.com/journal/6014/) about the new `main` element that is [making its way into the WC3 spec](http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element) and I have been meaning to jot down my thoughts ever since.
-
-First off, I am a big fan of Jeremy Keith. He is a very smart guy and find myself having to think twice when I find our views differ, but in the spirit of keeping the discussion going I will press on.
+A couple weeks ago [Jeremy Keith](https://twitter.com/adactio/) wrote [a post](http://adactio.com/journal/6014/) about the new `main` element that is [making its way into the WC3 spec](http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element) and I have been meaning to jot down my thoughts ever since. First off, I am a big fan of Jeremy Keith. He is a very smart guy and find myself having to think twice when I find our views differ, but in the spirit of keeping the discussion going I will press on.
 
 In his [original post](http://adactio.com/journal/6014/), Jeremy Keith raises concerns about how the `main` element is being implemented. Specifically he is questioning why it scopes to the body of the document and thus can only be used a maximum of one time. I’ll let you read his post as he will have said it more elegantly that I will. Go on… I’ll wait.
 

@@ -1,25 +1,5 @@
-# standard jekyll configuration
-root: /blog/
-permalink: /blog/:year/:month/:title
+name: Bryan Stedman
 pygments: true
-exclude: ['README.md', 'config.rb', 'todo.txt']
-markdown: maruku
-paginate: 2
 
-# configuration required for some pages
-
-domain: bryanstedman.com
-title: Bryan Stedman
-author: Bryan Stedman
-email: bryan@bryanstedman.com
-
-# configuration for ehancements, uncomment to enable
-
-feedburner:
-  id: bryanstedman
-
-google_analytics:
-  account: UA-16107577-1
-
-# disqus:
-#   id: disqusid
+paginate: 4
+paginate_path: /blog/page-:num
