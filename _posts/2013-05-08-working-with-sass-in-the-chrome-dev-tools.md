@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working with Sass in the Chrome dev tools"
-date:   2013-05-08
+date:   2013-06-08
 categories: sass css chrome web development
 ---
 
@@ -42,4 +42,4 @@ I am not using sourcemaps in my projects yet, but am looking forward to using th
 Now head back to the terminal to compile your Sass. Run `sass --watch --sourcemap style.sass:style.css`, replacing your file names accordingly. Now you will notice that your CSS file looks much better than before when we used Sass debug info. There are no wacky media queries, just regular looking CSS with that small comment at the bottom pointing to another file that Sass generated - in our case, style.css.map. This is our sourcemap and it consists of json with mapping between our Sass and CSS files that Chrome understands. The file paths are relative so the map file won't cause merge conflicts.
 
 ## This Post Sits on Quicksand
-The very nature of this post means that a lot it will soon be out of date. If you find an error feel free to send me a pull request as this blog is hosted on [Github](https://github.com/bryanstedman/bryanstedman.com). With that in mind, small changes - typo and the like, can go inline, but I'll move any edits that are a result of updates to the underlying technologies to an "Edits" section at the top so they are easy to find.
+The very nature of this post means that a lot it will soon be out of date. If you find an error feel free to send me a [pull request](https://github.com/bryanstedman/bryanstedman.com/blob/gh-pages/_posts/2013-06-08-working-with-sass-in-the-chrome-dev-tools.md) as this blog is hosted on [Github](https://github.com/bryanstedman/bryanstedman.com). With that in mind, small changes - typo and the like, can go inline, but I'll move any edits that are a result of updates to the underlying technologies to an "Edits" section at the top so they are easy to find.
