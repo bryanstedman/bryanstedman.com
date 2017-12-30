@@ -1,0 +1,32 @@
+body {font-family: 'Inconsolata', monospace;color:#333;}
+h1{font-weight: normal;font-size: 120%}
+.container{
+  width: 90%;
+  margin: 230px auto;
+  @media (min-width: 450px) {
+    width: 500px;
+    margin: 0;
+    position: absolute;
+    left: 130px;
+    top: 40%;
+  }
+
+}
+ul.social {padding: 0; list-style: none;}
+ul.social li {
+  display: inline;
+  margin-right: 10px;
+  a {
+    color:#ededed;text-decoration: none;
+    &:hover {
+      color: #ddd;
+    }
+  }
+  img.social-icon {
+    height: 20px;
+    opacity: 0.05;
+    &:hover {
+      opacity: 0.09
+    }
+  }
+}
